@@ -1,0 +1,5 @@
+name: paper town
+main: net.netherald.papertown.PaperTown
+version: 1.0-SNAPSHOT
+libraries:
+  - io.github.monun:kommand:$kommandVersion

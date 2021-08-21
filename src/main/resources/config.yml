@@ -1,0 +1,5 @@
+SQL_DATABASE : paper_towny
+SQL_IP : db.projecttl.net
+SQL_USERNAME : TEST
+SQL_PASSWORD : 1234
+SQL_PORT : 3306
