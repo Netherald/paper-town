@@ -9,7 +9,6 @@ version = "1.0-SNAPSHOT"
 val paperVersion : String by project
 val pbalanceVersion : String by project
 val kommandVersion : String by project
-val exposedVersion: String by project
 val mysqlVersion : String by project
 val hikariCPVersion : String by project
 
@@ -23,11 +22,7 @@ dependencies {
     implementation("net.projecttl:PBalance-api:$pbalanceVersion")
     implementation("io.github.monun:kommand-api:$kommandVersion")
     compileOnly("io.papermc.paper:paper-api:$paperVersion")
-    implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
-    implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
-    implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
     implementation("mysql:mysql-connector-java:$mysqlVersion")
-    implementation("com.zaxxer:HikariCP:$hikariCPVersion")
 }
 
 val shade = configurations.create("shade")
